@@ -3,7 +3,7 @@
   bottom: 0;
   margin-top: auto;
   width: 100vw;
-  padding: 4px 0;
+  padding: 5px 0;
   box-shadow: 0 -1px 3px 0px var(--red);
   background-color: var(--white);
 }
@@ -27,6 +27,6 @@
 }
 
 .icon_standard {
-  width: 25px;
-  height: 25px;
+  /* width: 25px; */
+  /* height: 25px; */
 }
