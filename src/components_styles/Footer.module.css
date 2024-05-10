@@ -36,5 +36,6 @@
   /* width: calc(100vh/23); */
   /* height: calc(100vh/23); */
   /* width: 36%; */
-  height: 36%;
+  /* height: 36%; */
+  height: auto;
 }
