@@ -21,7 +21,7 @@ export default function Footer({}: Props) {
         </li>
         <li>
           <Icon.PieChart color="var(--blacker)" className={css.icon_standard} />
-          <p>Progression</p>
+          <p>Progress</p>
         </li>
         <li>
           <Icon.Thermometer

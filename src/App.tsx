@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import History from "./components/History";
 import Workout from "./components/Workout";
-import Progression from "./components/Progression";
+import Progress from "./components/Progress";
 import Measures from "./components/Measures";
 import Settings from "./components/Settings";
 import Error from "./components/Error";
@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/" element={<Profile />} />
         <Route path="/history" element={<History />} />
         <Route path="/workout" element={<Workout />} />
-        <Route path="/progression" element={<Progression />} />
+        <Route path="/progress" element={<Progress />} />
         <Route path="/measures" element={<Measures />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/*" element={<Error />} />
