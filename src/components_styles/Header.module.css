@@ -1,11 +1,11 @@
 .header_container {
   width: 100%;
+  height: calc(100vh/17);
   padding: 5px 0;
-  background-color: var(--white);
-  box-shadow: 0 1px 3px 0 var(--red);
+  box-shadow: 0 3px 3px 0 var(--blacker);
 }
 
 .header_h1 {
-  color: var(--blacker);
+  color: var(--white);
   font-size: 2rem;
 }
