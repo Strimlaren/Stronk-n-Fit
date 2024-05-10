@@ -14,7 +14,7 @@ import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <div>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Profile />} />
@@ -26,6 +26,6 @@ export default function App() {
         <Route path="/*" element={<Error />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
