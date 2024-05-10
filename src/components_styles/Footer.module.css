@@ -27,12 +27,14 @@
 
 .ul>li>p {
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 100;
   /* text-transform: uppercase; */
 }
 
 .icon_standard {
-  width: calc(100vh/23);
-  height: calc(100vh/23);
+  /* width: calc(100vh/23); */
+  /* height: calc(100vh/23); */
+  /* width: 36%; */
+  height: 36%;
 }
